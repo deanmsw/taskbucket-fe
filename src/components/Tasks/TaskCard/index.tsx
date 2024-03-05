@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './taskCard.module.css'; // Import CSS module
 
-const TaskCard = ({ task }) => {
+const TaskCard = ({ task }: any) => {
   return (
     <div className={styles.card}>
       <img className={styles.image} src="/dummyproduct.png" alt="Caffe Latte" />
