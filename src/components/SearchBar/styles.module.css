@@ -1,0 +1,32 @@
+.searchBar {
+  width: 100%;
+}
+
+.inputGroup {
+  display: flex;
+  border-radius: 12px;
+}
+
+.input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 12px 0 0 12px;
+}
+
+.button {
+  background-color: var(--secondary) !important;
+  border: 1px solid #ccc;
+  border-radius: 0 12px 12px 0;
+  padding: 8px;
+}
+
+.searchIcon {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .searchBar {
+    width: 100%;
+  }
+}

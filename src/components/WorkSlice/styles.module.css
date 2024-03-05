@@ -1,0 +1,120 @@
+.workSlice {
+  display: flex;
+  flex-direction: row;
+  /* gap: 4px; */
+  height: 60%;
+  padding: 0 5%;
+  margin: 5% 0;
+}
+
+.content {
+  display: flex;
+  height: 50%;
+  min-height: 300px;
+  width: 65%;
+  /* gap: 4px; */
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  /* padding: 0% 10%; */
+  color: var(--primary);
+  /* gap: 4px; */
+  /* justify-content: center; */
+  text-align: left;
+  /* align-items: start; */
+}
+
+.heading {
+  font-weight: bold;
+  font-family: var(--heading);
+  font-size: 30px;
+}
+
+.description {
+  font-weight: bold;
+  font-family: var(--subHeading);
+  color: var(--secondary);
+  font-size: 16px;
+}
+
+.searchBar {
+  width: 80%;
+}
+
+.button {
+  width: 50%;
+  background-color: var(--secondary);
+  color: white;
+  font-size: 80%;
+  /* height: 28px; */
+  border-radius: 16px;
+  padding: 2%;
+}
+
+.imageContainer {
+  width: 35%;
+  height: 100%;
+  min-width: 300px;
+}
+
+.image {
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .workSlice {
+    /* background-color: lime; */
+    flex-wrap: wrap;
+  }
+  .content {
+    margin: 5% 0;
+    width: 100%;
+  }
+  .imageContainer {
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+    height: fit-content;
+  }
+  .searchBar {
+    width: 100%;
+  }
+  .textContent {
+    padding: 0% 2%;
+    text-align: center;
+  }
+}
+@media (min-width: 640px) {
+  .hero {
+    /* background-color: red; */
+  }
+  .textContent {
+    padding: 0% 5%;
+  }
+  .button {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    /* background-color: green; */
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+    /* background-color: blue; */
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero {
+    /* background-color: pink; */
+  }
+}
+@media screen and (min-width: 1536px) {
+  .hero {
+    /* background-color: purple; */
+  }
+}

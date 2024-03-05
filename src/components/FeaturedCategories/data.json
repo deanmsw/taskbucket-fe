@@ -1,0 +1,193 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Web Design",
+      "slug": "web-design",
+      "description": "Explore the latest gadgets and electronics.",
+      "image_url": "https://example.com/electronics.jpg",
+      "products_count": 1500,
+      "subcategories": [
+        {
+          "id": 101,
+          "title": "Smartphones",
+          "description": "Discover powerful smartphones with cutting-edge technology.",
+          "image_url": "https://example.com/smartphones.jpg",
+          "products_count": 500
+        },
+        {
+          "id": 102,
+          "title": "Laptops",
+          "description": "Find sleek laptops for work and entertainment.",
+          "image_url": "https://example.com/laptops.jpg",
+          "products_count": 400
+        },
+        {
+          "id": 103,
+          "title": "Televisions",
+          "description": "Upgrade your viewing experience with high-definition televisions.",
+          "image_url": "https://example.com/televisions.jpg",
+          "products_count": 600
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Accounting",
+      "description": "lets not get broke.",
+      "slug": "accounting",
+
+      "image_url": "https://example.com/clothing.jpg",
+      "products_count": 2000,
+      "subcategories": [
+        {
+          "id": 201,
+          "title": "Men's Clothing",
+          "description": "Explore fashionable clothing options for men.",
+          "image_url": "https://example.com/mens_clothing.jpg",
+          "products_count": 1000
+        },
+        {
+          "id": 202,
+          "title": "Women's Clothing",
+          "description": "Discover trendy clothing options for women.",
+          "image_url": "https://example.com/womens_clothing.jpg",
+          "products_count": 800
+        },
+        {
+          "id": 203,
+          "title": "Kids' Clothing",
+          "description": "Shop adorable clothing options for kids.",
+          "image_url": "https://example.com/kids_clothing.jpg",
+          "products_count": 200
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Plumbing",
+      "description": "Plumbing here and there.",
+      "slug": "plumbing",
+
+      "image_url": "https://example.com/clothing.jpg",
+      "products_count": 2000,
+      "subcategories": [
+        {
+          "id": 201,
+          "title": "Men's Clothing",
+          "description": "Explore fashionable clothing options for men.",
+          "image_url": "https://example.com/mens_clothing.jpg",
+          "products_count": 1000
+        },
+        {
+          "id": 202,
+          "title": "Women's Clothing",
+          "description": "Discover trendy clothing options for women.",
+          "image_url": "https://example.com/womens_clothing.jpg",
+          "products_count": 800
+        },
+        {
+          "id": 203,
+          "title": "Kids' Clothing",
+          "description": "Shop adorable clothing options for kids.",
+          "image_url": "https://example.com/kids_clothing.jpg",
+          "products_count": 200
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Gym Bro",
+      "slug": "gym-bro",
+
+      "description": "Get ripped or die trying",
+      "image_url": "https://example.com/clothing.jpg",
+      "products_count": 2000,
+      "subcategories": [
+        {
+          "id": 201,
+          "title": "Men's Clothing",
+          "description": "Explore fashionable clothing options for men.",
+          "image_url": "https://example.com/mens_clothing.jpg",
+          "products_count": 1000
+        },
+        {
+          "id": 202,
+          "title": "Women's Clothing",
+          "description": "Discover trendy clothing options for women.",
+          "image_url": "https://example.com/womens_clothing.jpg",
+          "products_count": 800
+        },
+        {
+          "id": 203,
+          "title": "Kids' Clothing",
+          "description": "Shop adorable clothing options for kids.",
+          "image_url": "https://example.com/kids_clothing.jpg",
+          "products_count": 200
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "cyber security",
+      "slug": "cyber-security",
+
+      "description": "not for long!!! TB all the way",
+      "image_url": "https://example.com/clothing.jpg",
+      "products_count": 2000,
+      "subcategories": [
+        {
+          "id": 201,
+          "title": "Men's Clothing",
+          "description": "Explore fashionable clothing options for men.",
+          "image_url": "https://example.com/mens_clothing.jpg",
+          "products_count": 1000
+        },
+        {
+          "id": 202,
+          "title": "Women's Clothing",
+          "description": "Discover trendy clothing options for women.",
+          "image_url": "https://example.com/womens_clothing.jpg",
+          "products_count": 800
+        },
+        {
+          "id": 203,
+          "title": "Kids' Clothing",
+          "description": "Shop adorable clothing options for kids.",
+          "image_url": "https://example.com/kids_clothing.jpg",
+          "products_count": 200
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Art",
+      "description": "Stay stylish with our wide range of art options.",
+      "image_url": "https://example.com/clothing.jpg",
+      "products_count": 2000,
+      "subcategories": [
+        {
+          "id": 201,
+          "title": "Men's Clothing",
+          "description": "Explore fashionable clothing options for men.",
+          "image_url": "https://example.com/mens_clothing.jpg",
+          "products_count": 1000
+        },
+        {
+          "id": 202,
+          "title": "Women's Clothing",
+          "description": "Discover trendy clothing options for women.",
+          "image_url": "https://example.com/womens_clothing.jpg",
+          "products_count": 800
+        },
+        {
+          "id": 203,
+          "title": "Kids' Clothing",
+          "description": "Shop adorable clothing options for kids.",
+          "image_url": "https://example.com/kids_clothing.jpg",
+          "products_count": 200
+        }
+      ]
+    }
+  ]
+}
