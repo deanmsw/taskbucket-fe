@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import styles from './styles.module.css';
 import Link from 'next/link';
-import MobileNav from './mobileNav';
+import MobileNav from './MobileNav';
 
 function NavBar() {
   const [showMenu, setShowMenu] = useState(false);
