@@ -1,9 +1,6 @@
 'use client';
 import React from 'react';
 import styles from './styles.module.css';
-import CategoryCard from './CategoryCard';
-import Slider from 'react-slick';
-import data from './data.json';
 
 function FeaturedCategories() {
   var settings = {
@@ -17,14 +14,13 @@ function FeaturedCategories() {
     <div className={styles.container}>
       <h1 className={styles.title}>Featured Categories</h1>
       <div className={styles.grid}>
-        <Slider {...settings}>
-          <div>
-            {/* {data?.categories?.map((cat, i) => (
+        {/* <Slider {...settings}> */}
+        <div>
+          {/* {data?.categories?.map((cat, i) => (
               <CategoryCard key={i} category={cat} />
             ))} */}
-            <>hey</>
-          </div>
-        </Slider>
+          <>hey</>
+        </div>
       </div>
     </div>
   );
