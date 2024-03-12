@@ -1,0 +1,70 @@
+.quoteTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.quoteTable th,
+.quoteTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.quoteTable th {
+  background-color: #f2f2f2;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContent {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.modalHeader h2 {
+  margin-top: 0;
+}
+
+.closeBtn {
+  float: right;
+}
+
+.modalBody,
+.modalFooter {
+  padding: 10px 20px;
+}
+
+.modalFooter .closeBtn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.rejectBtn,
+.acceptBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.rejectBtn:hover,
+.acceptBtn:hover,
+.closeBtn:hover {
+  background-color: #45a049;
+}

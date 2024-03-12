@@ -1,3 +1,5 @@
+import PageContainer from '@/components/PageContainer';
+
 export default function AboutLayout({
   children, // will be a page or nested layout
 }: {
@@ -5,10 +7,7 @@ export default function AboutLayout({
 }) {
   return (
     <section>
-      {/* Include shared UI here e.g. a header or sidebar */}
-      <nav></nav>
-
-      {children}
+      <PageContainer>{children}</PageContainer>
     </section>
   );
 }

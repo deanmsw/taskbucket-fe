@@ -89,5 +89,15 @@
   .hamburgerMenu {
     display: block;
     cursor: pointer;
+    height: 100%;
+    justify-content: unset;
+    /* width: 10%; */
+  }
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navbarContainer {
+    width: 70%;
   }
 }

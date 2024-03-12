@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import styles from './styles.module.css';
 import Link from 'next/link';
 import MobileNav from './MobileNav';
+import { MdPerson } from 'react-icons/md';
 
 function NavBar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -42,6 +43,9 @@ function NavBar() {
             </Link>
             <Link className={styles.navbar__button} href="/sign-up">
               Become a Seller
+            </Link>
+            <Link className={styles.navbar__button} href="/dashboard/1">
+              {<MdPerson />}
             </Link>
           </div>
         </div>

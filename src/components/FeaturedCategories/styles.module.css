@@ -13,17 +13,21 @@
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  width: 80%;
-  gap: 4px;
+  display: flex;
+  width: 100vw;
+  gap: 2rem;
+  overflow: hidden;
 }
 
 .card {
+  display: flex;
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 16px;
   margin-bottom: 16px;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
@@ -45,4 +49,26 @@
 
 .footer button:hover {
   background-color: #0056b3;
+}
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselInner {
+  display: flex;
+}
+
+.carouselItem {
+  display: none;
+}
+
+.carouselItem.active {
+  display: block;
+}
+
+.prevButton,
+.nextButton {
+  /* Your button styles */
 }

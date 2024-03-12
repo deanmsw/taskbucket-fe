@@ -1,4 +1,4 @@
-export default function CategoryLayout({
+export default function QuoteLayout({
   children, // will be a page or nested layout
 }: {
   children: React.ReactNode;

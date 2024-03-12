@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import { MdMenu } from 'react-icons/md';
 import styles from './styles.module.css';
 import Link from 'next/link';
@@ -26,8 +26,8 @@ function MobileNav({
           <Link className={styles.dropdownItem} href="/categories">
             Categories
           </Link>
-          <Link className={styles.dropdownItem} href="/account">
-            Account
+          <Link className={styles.dropdownItem} href="/dashboard/1">
+            Dashboard
           </Link>
           <button onClick={() => setShowMenu(false)}>X</button>
         </div>

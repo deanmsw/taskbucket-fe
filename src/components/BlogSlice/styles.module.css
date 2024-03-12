@@ -1,0 +1,11 @@
+.blogSliceContainer {
+  background-color: #eff5fb;
+  width: 100%;
+}
+.blogCards {
+  display: flex;
+  gap: 2rem;
+  padding: 16px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
