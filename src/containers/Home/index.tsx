@@ -13,7 +13,8 @@ function HomeContainer() {
       {/* <FeaturedCategories /> */}
       <EarnSlice />
       <WorkSlice />
-      <BlogSlice />
+      <BlogSlice title="See what's new in popular fields" />
+      <BlogSlice title="Popular Services" />
     </PageContainer>
   );
 }

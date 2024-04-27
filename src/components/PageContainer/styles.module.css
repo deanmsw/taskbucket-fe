@@ -6,3 +6,6 @@
   flex-flow: column;
   height: 100%;
 }
+.children {
+  min-height: 80vw;
+}

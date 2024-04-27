@@ -1,0 +1,21 @@
+.footerContainer {
+  height: fit-content;
+  background-color: var(--secondary);
+  min-height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+.headings {
+  /* color: var(--secondary) */
+}
+.links {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
